@@ -5,11 +5,13 @@ Característica: Realizar compra de articulos
   Quiero ingresar a la tienda http://opencart.abstracta.us/
   Para comprar articulos
 
+  @EscenarioSinEjemplos
   Escenario: Agregar articulos al carrito
     Dado que un cliente accede hasta la tienda web
     Cuando agrega los articulos al carrito
     Entonces puede ver la lista de articulos en el carrito
 
+  @EscenarioConEjemplos
   Esquema del escenario: Agregar articulos al carrito
     Dado que un cliente accede hasta la tienda web
     Cuando agrega los articulos al carrito
